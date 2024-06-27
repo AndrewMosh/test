@@ -572,7 +572,6 @@ a {
 }
 .intro {
   position: relative;
-  height: 100vh;
 }
 .intro__background {
   z-index: -1;
@@ -711,6 +710,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 18px;
+  position: relative;
 }
 .ingredients__title {
   color: #fff;
