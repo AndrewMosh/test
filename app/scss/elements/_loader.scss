@@ -1,7 +1,14 @@
 .loader {
+    @include bg1;
     padding: 0;
     margin: 0;
-    height: 120vh;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    overflow: hidden;
 }
 
 .center {
