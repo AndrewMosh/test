@@ -1,5 +1,6 @@
 html,
 body {
+    @include bg1;
     padding: 0;
     margin: 0;
     font-style: normal;
@@ -7,7 +8,6 @@ body {
     font-size: 16px;
     line-height: 120%;
     font-family: "Arimo";
-    background-color: $black;
 }
 
 * {

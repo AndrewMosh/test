@@ -25,6 +25,15 @@
     });
   });
 })();
+document.addEventListener("DOMContentLoaded", function () {
+  var preloader = document.querySelector(".loader");
+  preloader.style.display = "none";
+  console.log("bitch");
+});
+window.addEventListener("beforeunload", function () {
+  var preloader = document.querySelector(".loader");
+  preloader.style.display = "block";
+});
 var testimonialContainer = document.querySelector(".reviews__wrapper");
 var testimonialItems = document.querySelectorAll(".reviews__item");
 var prevBtn = document.querySelector(".reviews__prev");
