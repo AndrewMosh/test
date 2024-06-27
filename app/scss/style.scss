@@ -1,0 +1,12 @@
+@import "./normalize/reset";
+@import "./mixin/fonts";
+@import "./mixin/bg";
+@import "./fonts";
+@import "./setting/variables";
+@import "./setting/main";
+@import "./elements/button";
+@import "./../pages/sections/intro/intro.scss";
+@import "./../pages/sections/ingredients/ingredients.scss";
+@import "./../pages/sections/reviews/reviews.scss";
+@import "./../pages/sections/promo/promo.scss";
+@import "./../pages/sections/form/form.scss";

@@ -1,0 +1,8 @@
+@mixin bg1() {
+    background: linear-gradient(to right, rgba(46, 18, 59, 0.998), rgb(0, 0, 0));
+}
+
+@mixin bg2() {
+    background: linear-gradient(to right, rgba(68, 31, 86, 0.998), rgb(0, 0, 0));
+    box-shadow: 0 0 10px $purpleGlow;
+}
