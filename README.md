@@ -3,8 +3,11 @@
 ## Запустить локально:
 
 git clone https://github.com/AndrewMosh/test
+
 cd test
+
 npm i
+
 npm run start
 
 ## Ссылка на демо
