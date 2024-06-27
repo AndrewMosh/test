@@ -28,7 +28,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var preloader = document.querySelector(".loader");
   preloader.style.display = "none";
-  console.log("bitch");
 });
 window.addEventListener("beforeunload", function () {
   var preloader = document.querySelector(".loader");
